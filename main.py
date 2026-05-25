@@ -1,3 +1,5 @@
+# Get the user's selected operation
+
 def user_operation():
     try:
         operation = int(input("what operation would you like to perform? Choose from below options:\n"
@@ -37,6 +39,7 @@ def main():
             print("Goodbye!!")
             break
         elif operation in (1, 2, 3, 4):
+            # Get two numbers from the user
             try:
                 x = float(input("Enter the first number: "))
                 y = float(input("Enter the second number: "))
@@ -44,6 +47,7 @@ def main():
                 print("Invalid number entered")
                 continue
 
+            # Perform the selected calculation
             if operation == 1:
                 result = addition(x, y)
             elif operation == 2:
@@ -57,6 +61,7 @@ def main():
             print("Wrong entry. try again!!")
     
 
+# Run the calculator app
 if __name__ == "__main__":
     main()
 
