@@ -12,6 +12,20 @@ A simple command-line calculator built with Python.
 - Invalid input handling
 - Repeats until the user chooses to exit
 
+## Learning Goals
+
+This project was built as part of my 90-day AI/ML practical roadmap.
+
+The goal of this project is to practice:
+
+- Writing clean Python functions
+- Handling user input
+- Using conditional logic
+- Handling basic errors with try/except
+- Creating a simple command-line application
+- Structuring a beginner Python project
+- Using Git and GitHub for version control
+
 ## How to Run
 
 1. Clone or download this project.
@@ -20,3 +34,4 @@ A simple command-line calculator built with Python.
 
 ```bash
 python main.py
+
